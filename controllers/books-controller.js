@@ -37,7 +37,7 @@ router.get('/:id', async (req, res) => {
     }
 })
 
-router.post('/', (req. res) => {
+router.post('/', (req, res) => {
     if (!req.body.imageURL) {
         req.body.imageURL = undefined
     }
